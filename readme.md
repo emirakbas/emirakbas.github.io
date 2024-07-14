@@ -10,5 +10,9 @@ Bahsettiğim ikona tıkladıktan sonra sitenin bir kutu içerisine alındığın
 <br>
 <img src="/ekran2.png">
 
+Dimensions kısmında bulunan telefonlardan herhangi birisini seçtiğiniz zaman sitenin normal görünümü aktif hale gelecektir.
+
+İyi seyirler.
+
 
 Bu siteyi indirmenize gerek yok. Direkt olarak kendi web sayfası üzerinden erişebilirsiniz: https://emirakbas.github.io/
