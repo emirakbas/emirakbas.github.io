@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@media screen and (max-width: 768px) {
+
+* {
+    white-space: nowrap; /* Alt satıra geçmeyi engelle */
+}
+
+body {
+    position: relative;
+    margin: 0; /*Dış kenar boşlukları sıfırlar*/
+    height: 100vh; /* vh = view height. Her cihazın kendi ekranının yüksekliği kadar olacak şekilde ayarlar. HTML'deki viewport özelliğinden yararlanır.*/
+    width: 100vw; /* vw = view width. Her cihazın kendi ekranının genişliği kadar olacak şekilde ayarlar. HTML'deki viewport özelliğinden yararlanır.*/ 
+}
+
+header {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    background-color: transparent;    
+    width: 100%;
+    height: 100px;
+    margin: 0;
+}
+
+.logo {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;   /*İç kenar boşlukları. Bu sayede iki ayrı yazı etiketi arasında boşluk oluşur. Emir ve Akbaş ayrılır.*/
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+header .emir {
+    color: #c2b280;
+}
+
+header .akbas {
+    color: #3f3a2e;
+}
+
+.menu_bar {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c2b280;
+    width: 90%;
+    height: 30%;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12.5px;
+    color: azure;
+    gap: 25px;
+}
+
+.menu_bar li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   list-style-type:none;
+}
+
+.menu_bar a {
+    color: white;
+}
+
+a:hover {
+    text-decoration:none
+}
+a:link {
+    text-decoration:none
+}
+a:visited {
+    text-decoration:none
+}
+a:active {
+    text-decoration:none
+}
+
+} /* ::::: MEDİA KAPATMA PARANTEZİ ::::: */
