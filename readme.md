@@ -4,3 +4,5 @@ F12 tuşuna basınca açılan developer tools bölümünden mobil ekranlar seçe
 
 Bahsettiğim ikonun görseli bu şekildedir: <br>
 <img src="/ekran.png" width="100" height="100">
+
+Bu siteyi indirmenize gerek yok. Direkt olarak kendi web sayfası üzerinden erişebilirsiniz: https://emirakbas.github.io/
